@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="AmazonClone.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            
+            <div class="nav-address border">
+                <p class="deliver-to">Deliver to</p>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="India">India</p>
+                </div>
+            </div>
+
+            <div class="nav-searchbar border">
+                <select class="search-select">
+                    <option value="All">All</option>
+                    <option value="All Department">All Department</option>
+                    <option value="Arts & Crafts">Arts & Crafts</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                    <option value="Books">Books</option>
+                    <option value="Boy's Fashion">Boy's Fashion</option>
+                    <option value="Computer">Computer</option>
+                    <option value="Deals">Deals</option>
+                    <option value="Digital Music">Digital Music</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Girl's Fashion">Girl's Fashion</option>
+                    <option value="Health & Household">Health & Household</option>
+                    <option value="Home & Kitchen">Home & Kitchen</option>
+                    <option value="Industrial & Scientific">Industrial & Scientific</option>
+                    <option value="Kindle Store">Kindle Store</option>
+                    <option value="Luggage">Luggage</option>
+                    <option value="Men's Fashion">Men's Fashion</option>
+                    <option value="Movies & TV">Movies & TV</option>
+                    <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>
+                    <option value="Pet Supplies">Pet Supplies</option>
+                    <option value="Prime Video">Prime Video</option>
+                    <option value="Software">Software</option>
+                    <option value="Sports & Outdoors">Sports & Outdoors</option>
+                    <option value="Tools & Improvements">Tools & Improvements</option>
+                    <option value="Toys & Games">Toys & Games</option>
+                    <option value="Video Games">Video Games</option>
+                    <option value="Women's Fashion">Women's Fashion</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-language border">
+                <div class="nav-language-logo"></div>
+                <select class="nav-language-select border">
+                    <option value="EN">EN</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Arabian">Arabian</option>
+                    <option value="Russian">Russian</option>
+                    <option value="Korean">Korean</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Thai">Thai</option>  
+                    <option value="French">French</option>
+                </select>
+            </div>
+
+            <div class="nav-sign-in border">
+                <p><span class="nav-signin-first"><a href="Sign-in.html">Sign-in</a></span></p>
+                <p class="nav-signin-second">Accounts & Lists</p>
+            </div>
+
+            <div class="nav-Return&Orders border">
+                <p><span class="nav-Returns">Returns</span></p>
+                <p class="nav-Orders">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+        <!-- Pannel -->
+         <div class="pannel">
+            <div class="pannel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+
+            <div class="pannel-options">
+                <a href="#">Today's Deals</a>
+                <a href="#">Prime Video</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Registry</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Sell</a>
+            </div>
+            <div class="pannel-deals border">
+                Shop deals in Electronics
+            </div>
+         </div>
+    </header>
+
+
+    <div class="hero-section">
+        <div class="hero-message">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#"> Click here to go to amazon.in</a></div>
+    </div>
+    
+    <div class="shopping-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Get your game on</h2>
+                <div class="box-img" style="background-image: url(box1.jpg);"></div>
+                <a href="#">Shop Gaming</a> 
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Shop for your home essentials</h2>
+                <div class="box-img" >
+                    <div class="inbox-img" style="background-image: url('box10.jpg');">
+                        <p>Cleaning Tools</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box11.jpg');">
+                        <p>Home Storage</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box12.jpg');">
+                        <p>Bedding</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box3.jpg');">
+                        <p>Home Decor</p>
+                    </div>
+                    
+                </div>  
+                <a href="#">Discover more in Home</a>
+            </div>    
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Shop Fashion For Less</h2>
+                <div class="box-img">
+                    <div class="inbox-img" style="background-image: url('box19.jpg');">
+                        <p>Jeans under $50</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box14.jpg');">
+                        <p>Tops under $25</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box15.jpg');">
+                        <p>Dress under $30</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box2.jpg');">
+                        <p>Shoes under $50</p>
+                    </div>
+                </div>  
+                <a href="#">See all details</a>
+            </div> 
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Top categories in Kitchen appliances</h2>
+                <div class="box-img">
+                    <div class="inbox-img1" style="background-image: url('box16.jpg');">
+                           <p>Cooker</p>
+                    </div>
+                    
+                    <div class="inbox-box2"> 
+                          <div class="inbox-img" style="background-image: url('box4.jpg');">
+                              <p>Coffee</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box17.jpg');">
+                              <p>Pots and p...</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box18.jpg');">
+                              <p>Kettles</p>
+                          </div>
+                    </div>     
+                </div>  
+                <a href="#">Explore all products in Kitchen</a>
+            </div> 
+        </div>
+
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>Refresh your space</h2>
+                <div class="box-img">
+                    <div class="inbox-img" style="background-image: url('box20.jpg');">
+                        <p>Dining</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box6.jpg');">
+                        <p>Home</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box21.jpg');">
+                        <p>Kitchen</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box22.jpg');">
+                        <p>Health and Beauty</p>
+                    </div>
+                </div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Shop for Household</h2>
+                <div class="box-img" style="background-image: url(box5.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>Shop for women wears</h2>
+                <div class="box-img" style="background-image: url(box7.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Some Jewellery</h2>
+                <div class="box-img" style="background-image: url(box8.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box9 box">
+            <h2>International Top Sellers </h2>
+            <ul class="box9-ul">
+                <li>
+                    <span>
+                        <a><img src="box9.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box23.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box24.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box25.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box26.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box12.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box14.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box15.jpg" alt=""></a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="box10 box">
+            <div class="box-content">
+                <h2>Shop Fashion For Less</h2>
+                <div class="box-img">
+                    <div class="inbox-img" style="background-image: url('box19.jpg');">
+                        <p>Jeans under $50</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box14.jpg');">
+                        <p>Tops under $25</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box15.jpg');">
+                        <p>Dress under $30</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box2.jpg');">
+                        <p>Shoes under $50</p>
+                    </div>
+                </div>  
+                <a href="#">See all details</a>
+            </div> 
+        </div>
+        <div class="box11 box">
+            <div class="box-content">
+                <h2>Top categories in Kitchen appliances</h2>
+                <div class="box-img">
+                    <div class="inbox-img1" style="background-image: url('box16.jpg');">
+                           <p>Cooker</p>
+                    </div>
+                    
+                    <div class="inbox-box2"> 
+                          <div class="inbox-img" style="background-image: url('box4.jpg');">
+                              <p>Coffee</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box17.jpg');">
+                              <p>Pots and p...</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box18.jpg');">
+                              <p>Kettles</p>
+                          </div>
+                    </div>     
+                </div>  
+                <a href="#">Explore all products in Kitchen</a>
+            </div> 
+        </div>
+
+        <div class="box12 box">
+            <div class="box-content">
+                <h2>Refresh your space</h2>
+                <div class="box-img">
+                    <div class="inbox-img" style="background-image: url('box20.jpg');">
+                        <p>Dining</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box6.jpg');">
+                        <p>Home</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box21.jpg');">
+                        <p>Kitchen</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box22.jpg');">
+                        <p>Health and Beauty</p>
+                    </div>
+                </div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box13 box">
+            <div class="box-content">
+                <h2>Get your game on</h2>
+                <div class="box-img" style="background-image: url(box5.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box14 box">
+            <div class="box-content">
+                <h2>Get your game on</h2>
+                <div class="box-img" style="background-image: url(box7.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box15 box">
+            <div class="box-content">
+                <h2>Get your game on</h2>
+                <div class="box-img" style="background-image: url(box8.jpg);"></div>  
+                <a href="#">See more</a>
+            </div>
+        </div>
+        <div class="box16 box">
+            <div class="box-content">
+                <h2>Shop Fashion For Less</h2>
+                <div class="box-img">
+                    <div class="inbox-img" style="background-image: url('box19.jpg');">
+                        <p>Jeans under $50</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box14.jpg');">
+                        <p>Tops under $25</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box15.jpg');">
+                        <p>Dress under $30</p>
+                    </div>
+                    
+                    <div class="inbox-img" style="background-image: url('box2.jpg');">
+                        <p>Shoes under $50</p>
+                    </div>
+                </div>  
+                <a href="#">See all details</a>
+            </div> 
+        </div>
+        <div class="box17 box">
+            <div class="box-content">
+                <h2>Top categories in Kitchen appliances</h2>
+                <div class="box-img">
+                    <div class="inbox-img1" style="background-image: url('box16.jpg');">
+                           <p>Cooker</p>
+                    </div>
+                    
+                    <div class="inbox-box2"> 
+                          <div class="inbox-img" style="background-image: url('box4.jpg');">
+                              <p>Coffee</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box17.jpg');">
+                              <p>Pots and p...</p>
+                          </div>
+                    
+                          <div class="inbox-img" style="background-image: url('box18.jpg');">
+                              <p>Kettles</p>
+                          </div>
+                    </div>     
+                </div>  
+                <a href="#">Explore all products in Kitchen</a>
+            </div> 
+        </div>
+        <div class="box18 box">
+            <h2>International Top Sellers </h2>
+            <ul class="box9-ul">
+                <li>
+                    <span>
+                        <a><img src="box9.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box23.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box24.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box25.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box26.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box12.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box14.jpg" alt=""></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a><img src="box15.jpg" alt=""></a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+     </div>    
+</body>
+
+<footer>
+    <div class="foot-pannel0">
+        <div class="container">
+            <div class="container-h2">
+                <h2>See Personalized Recommendations</h2>
+            </div>
+            <div class="container-button">
+                <button><a href="Sign-in.html"> Sign-In </a></button>
+            </div>
+            <div class="container-new-customer">
+                <p style="font-weight: lighter;">New customer?</p>
+                <a href="Sign-in.html">Start here</a>
+            </div>
+        </div>
+    </div>
+    <div class="foot-pannel1">
+        Back To Top
+    </div>
+
+    <div class="foot-pannel2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Carrers</a>
+            <a>Blog</a>
+            <a>About Amazon</a>
+            <a>Investor Relations</a>
+            <a>Amazon Devices</a>
+            <a>Amazon Science</a>
+        </ul>
+
+        <ul>
+            <p>Make Money with Us</p>
+            <a>Sell products on Amazon</a>
+            <a>Sell on Amazon Business</a>
+            <a>Sell apps on Amazon</a>
+            <a>Become an Affiliate</a>
+            <a>Advertise Your Products</a>
+            <a>Self-Publish with Us</a>
+            <a>Host an Amazon Hub</a>
+            <a>›See More Make Money with Us</a>
+        </ul>
+
+        <ul>
+            <p>Amazon Payment Products</p>
+            <a>Amazon Business Card</a>
+            <a>Shop with Points</a>
+            <a>Reload Your Balance</a>
+            <a>Amazon Currency Converter</a>            
+        </ul>
+
+        <ul>
+            <p>Let Us Help You</p>
+            <a>Amazon and COVID-19</a>
+            <a>Your Account</a>
+            <a>Your Orders</a>
+            <a>Shipping Rates & Policies</a>
+            <a>Returns & Replacements</a>
+            <a>Manage Your Content and Devices</a>
+            <a>Help</a>
+        </ul>
+    </div>
+
+    <div class="foot-pannel3">
+        <div class="logo"></div>
+    </div>
+
+    <div class="foot-pannel4">
+        <div class="pages">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+    </div>
+</footer>
+</html>
